@@ -18,9 +18,9 @@ const Home: NextPage = () => {
         <div className='container'>
           <span>Hi, I'm</span>
           <div className='stack' style={{ ['--stacks' as any]: '3;'}}>
-            <span style={{ ['--index' as any]: '0;'}}>Ryland</span>
-            <span style={{ ['--index' as any]: '1;'}}>Ryland</span>
-            <span style={{ ['--index' as any]: '2;'}}>Ryland</span>
+            <span style={{ ['--index' as any]: '0;'}}>Ryland Donovan</span>
+            <span style={{ ['--index' as any]: '1;'}}>Ryland Donovan</span>
+            <span style={{ ['--index' as any]: '2;'}}>Ryland Donovan</span>
           </div>
           <span style={{textAlign: 'right'}}>a full stack developer</span>
         </div>
