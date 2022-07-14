@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../styles/Project.module.scss'
 
 interface ProjectProps {
   projectName: string,
@@ -8,9 +9,9 @@ interface ProjectProps {
 
 const ProjectComponent = ({ projectName, thumbnail, technologies }: ProjectProps) => {
   return (
-    <div>
+    <div className={styles['project-container']}>
       <h1>{projectName}</h1>
-      <img src={thumbnail}></img>
+      <img className={styles['project-image']} src={thumbnail}></img>
       <ul>
         {technologies.map(item => (<li>{item}</li>))}
       </ul>
