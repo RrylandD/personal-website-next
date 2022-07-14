@@ -1,0 +1,18 @@
+.job-container {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 50vw;
+
+  .title-line {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+    *{
+      margin: 0;
+      padding: 0 0.25rem;
+    }
+  }
+}
